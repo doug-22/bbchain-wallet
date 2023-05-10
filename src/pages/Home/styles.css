@@ -1,0 +1,80 @@
+.background {
+  background-color: #eaebed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #559ed3;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px #d5d5d5;
+}
+
+.wrapper-title {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  margin: auto;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+}
+
+.image-metamask {
+  height: 3rem;
+  width: auto;
+}
+
+.content {
+  background-color: #b9d7ea;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address, .balance {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.address input {
+  width: 100%;
+  height: 1.5rem;
+  text-indent: 0.8rem;
+  border: 0.1rem solid #eaebed;
+  border-radius: 5rem;
+}
+
+.balance p:last-child {
+  margin-left: auto;
+}
+
+.conect-button {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5rem;
+  background-color: #559ed3;
+  border: 0.1rem solid #eaebed;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.conect-button:hover {
+  background-color: #eaebed;
+  border: 0.1rem solid #559ed3;
+  color: #000000;
+}
