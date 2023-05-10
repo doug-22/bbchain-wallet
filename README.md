@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# BBChain Wallet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+O BBChen Wallet é um projeto simples que visa mostrar a integração entre a MetaMask Wallet com uma interface visual criada em ReactJS. Com a interface é possível tentar buscar seu saldo do MetaMask informando o edereço da conta, caso a extensão do MetaMask não esteja instalada no seu computador, um aviso é mostrado, e é exibido um link que o redireciona para o site da MetaMask. Se a tentativa de conexão ocorrer com sucesso, é retornado uma mensagem de sucesso e o saldo da carteira pe informado.
 
-In the project directory, you can run:
+### Tecnologias
 
-### `npm start`
+* [React](https://pt-br.reactjs.org/): para criação da uma inteface simples;
+* [Web3JS](https://docs.web3js.org/): para conexão em a MetaMask Wallet;
+* [React-toastify](https://fkhadra.github.io/react-toastify/introduction): para avisos visuais para o usuário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instalação Front-End
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone o repositório deste projeto:
 
-### `npm test`
+```bash
+#Clone o repositório:
+$ git clone https://github.com/doug-22/bbchain-wallet.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Entre na pasta bbchain-wallet:
+$ cd bbchain-wallet
 
-### `npm run build`
+#Instale as denpendencias:
+$ yarn
+ou
+$ npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Inicie a aplicação com:
+$ yarn start
+ou
+$ npm run start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Com a aplicação rodando, basta inserir o endereço da conta e fazer a conexão para buscar o saldo disponível.
